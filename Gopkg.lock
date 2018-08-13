@@ -47,9 +47,10 @@
   version = "v1.14.0"
 
 [[projects]]
+  branch = "improved"
   name = "github.com/awslabs/goformation"
   packages = ["cloudformation"]
-  revision = "1358de5008ca15a213cc432549977e09cd4d2beb"
+  revision = ""
   source = "https://github.com/errordeveloper/goformation"
 
 [[projects]]
@@ -706,6 +707,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a45d0efbf394f9bac1c0b2a19721e8177306c102d0d793f81a6a195f5d11d70c"
+  inputs-digest = "69d7fee0ae713d669d96f1c0cac1fbf3fad07c351b423a0c49ae68acbed7df5b"
   solver-name = "gps-cdcl"
   solver-version = 1
